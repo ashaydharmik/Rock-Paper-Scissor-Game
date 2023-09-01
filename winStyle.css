@@ -1,0 +1,82 @@
+.win-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  gap: 9rem;
+  display: none;
+  position: relative;
+}
+.win-left::after {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  background-color: rgba(189, 0, 255, 1);
+}
+.win-left p {
+  text-align: center;
+  position: relative;
+  top: -4rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.winner-style::before {
+  box-shadow: 0 0 0 28px rgb(18 122 44 / 79%), 0 0 0 59px rgb(17 166 54 / 79%),
+    0 0 0 89px rgba(46, 154, 37, 0.39);
+}
+
+.win-center .win-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.win-content h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.win-content h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.win-center .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.button #btn1 {
+  width: 12rem;
+  height: 3.3rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(107, 107, 107, 1);
+  border: none;
+  cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(243, 242, 242);;
+}
+#btn1 a {
+  color: rgba(107, 107, 107, 1);
+  text-decoration: none;
+}
+
+.win-container .win-right p {
+  text-align: center;
+  position: relative;
+  top: -4rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
